@@ -197,7 +197,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       
       <div class="form-group">
         <label for="location">Location</label>
-        <input type="text" id="location" name="location" value="<?php echo htmlspecialchars($_POST['location'] ?? ''); ?>" required>
+        <select id="location" name="location" required>
+          <option value="">Pick a location</option>
+          <option value="A" >A</option>
+          <option value="B" >B</option>
+          <option value="C" >C</option>
+          <option value="D" >D</option>
+    </select>
       </div>
       
       <button type="submit" class="submit-btn">Upload Photo</button>
