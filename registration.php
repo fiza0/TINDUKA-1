@@ -43,7 +43,7 @@
       <span>Confirm password</span>
     </label>
     <button class="submit" type="submit">Submit</button>
-    <p class="signin">Already have an account? <a href="/signin">Signin</a></p>
+    <p class="signin">Already have an account? <a href="/login.php">Signin</a></p>
   </form>
 </body>
 </html>
