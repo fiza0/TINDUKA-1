@@ -37,6 +37,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <input type="password" name="password" required>
             </div>
             <button type="submit">Login</button>
+            <p>Not admin? <a href="login.php">click here</a></p>
         </form>
     </div>
 </body>
